@@ -1,0 +1,32 @@
+# Зависимости
+/node_modules
+/.pnp
+.pnp.js
+
+# Тестирование
+/coverage
+
+# Продакшн билды
+/build
+/dist
+
+# Переменные окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Добавьте эту строку в .gitignore
+*.docx 
